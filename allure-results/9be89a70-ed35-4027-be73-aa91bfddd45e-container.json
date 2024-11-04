@@ -1,0 +1,1 @@
+{"uuid":"9be89a70-ed35-4027-be73-aa91bfddd45e","name":"inmobus.testcases.New_School_Register","children":["debd6f3c-c92f-4c90-bcc2-3456254d591d"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1730196319173,"stop":1730196335921}],"afters":[],"start":1730196274373,"stop":1730196666097}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Inmobius FE" thread-count="5" parallel="tests">
+	<listeners>
+		<listener class-name="com.qa.hubspot.listeners.TestAllureListeners" />
+		<!-- 
+		<listener class-name="com.qa.hubspot.listeners.TestListeners" />
+		-->
+	</listeners>
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!--
+			<class name="inmobus.testcases.student_forgotpassword" />
+			<class name="inmobus.testcases.student_login_withOTP" />
+			<class name="inmobus.testcases.reset_password" />
+ 			<class name="inmobus.testcases.olympiad_Test_Attempt" />
+ 			<class name="inmobus.testcases.olympiad_Test_Create_view" />
+			  -->
+			   
+			
+			<class name="inmobus.testcases.insights" />
+			<class name="inmobus.testcases.New_School_Register" />
+			<class name="inmobus.testcases.adminlogin_eventcreate" />
+			<class name="inmobus.testcases.student_register" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Inmobius FE -->
+
+
+
+

@@ -1,0 +1,1 @@
+{"uuid":"41cb3f4b-4697-496f-a8b6-95485026b43b","name":"inmobus.testcases.student_register","children":["221c1a6b-ef2a-4a91-b269-d637d84e1ad9"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1729838223872,"stop":1729838232783}],"afters":[],"start":1729837915130,"stop":1729838270571}

@@ -1,0 +1,1 @@
+{"uuid":"51e51624-879f-48fd-8e75-cccc0a566141","name":"inmobus.testcases.adminlogin_eventcreate","children":["d2d1250a-2f55-4461-acc2-e9e9df7064ed"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1729838060041,"stop":1729838067718}],"afters":[],"start":1729837915130,"stop":1729838270570}

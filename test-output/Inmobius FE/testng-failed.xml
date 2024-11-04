@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Inmobius FE]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.hubspot.listeners.TestAllureListeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="inmobus.testcases.adminlogin_eventcreate">
+        <methods>
+          <include name="event_create"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- inmobus.testcases.adminlogin_eventcreate -->
+      <class name="inmobus.testcases.student_register">
+        <methods>
+          <include name="student_registration"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- inmobus.testcases.student_register -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Inmobius FE] -->

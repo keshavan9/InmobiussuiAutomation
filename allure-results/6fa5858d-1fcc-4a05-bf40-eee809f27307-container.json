@@ -1,0 +1,1 @@
+{"uuid":"6fa5858d-1fcc-4a05-bf40-eee809f27307","name":"inmobus.testcases.insights","children":["76778d88-7239-4178-9fd7-80de08d9c477"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1730196274396,"stop":1730196293927}],"afters":[],"start":1730196274373,"stop":1730196666100}
